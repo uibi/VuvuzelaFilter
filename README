@@ -1,0 +1,9 @@
+VuvuzelaFilter
+
+This is a small application to filter the vuvuzela noise. See http://www.albert-feller.de/blog/2010/06/14/vuvuzela-noise-filter-app-for-mac-os-x/ for details.
+
+This is based on Apple's CAPlayThrough sample code.
+http://developer.apple.com/mac/library/samplecode/CAPlayThrough/Introduction/Intro.html
+
+Make sure, that you install the updated CARingBuffer classes:
+http://developer.apple.com/mac/library/qa/qa2009/qa1665.html

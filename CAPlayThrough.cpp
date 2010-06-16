@@ -741,7 +741,8 @@ OSStatus CAPlayThrough::OutputProc(void *inRefCon,
 	}
 
 	//copy the data from the buffers	
-	err = This->mBuffer->Fetch(ioData, inNumberFrames, SInt64(TimeStamp->mSampleTime - This->mInToOutSampleOffset), false);	
+//	err = This->mBuffer->Fetch(ioData, inNumberFrames, SInt64(TimeStamp->mSampleTime - This->mInToOutSampleOffset), false);	
+	err = This->mBuffer->Fetch(ioData, inNumberFrames, SInt64(TimeStamp->mSampleTime - This->mInToOutSampleOffset));	
 	if(err != kCARingBufferError_OK)
 	{
 		MakeBufferSilent (ioData);

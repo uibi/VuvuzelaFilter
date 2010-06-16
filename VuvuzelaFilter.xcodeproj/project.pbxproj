@@ -282,21 +282,30 @@
 		F70E30240BB2147A00C0C9FB /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = "";
 			};
 			name = Development;
 		};
 		F70E30250BB2147A00C0C9FB /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = "";
 			};
 			name = Deployment;
 		};
 		F70E30260BB2147A00C0C9FB /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = "";
 			};
 			name = Default;
 		};

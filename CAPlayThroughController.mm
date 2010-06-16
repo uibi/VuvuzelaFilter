@@ -102,6 +102,7 @@ static void	BuildDeviceMenu(AudioDeviceList *devlist, NSPopUpButton *menu, Audio
 		[mProgress setHidden: YES];
 		[mProgress stopAnimation:sender];
 	}
+	[mStartButton setState:NSOffState];
 }
 
 - (void)resetPlayThrough
